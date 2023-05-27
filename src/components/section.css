@@ -1,0 +1,46 @@
+.section {
+  position: sticky;
+  display: flex;
+  height: 600px;
+  background-color: white;
+  align-items: center;
+  margin-top: 80px;
+  width: 100%;
+}
+.left {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.left-text {
+  margin-left: 200px;
+  width: 500px;
+}
+.left-text h1 {
+  font-size: 50px;
+  font-family: "Merriweather", serif;
+}
+.left-text p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 550;
+}
+.left-text button {
+  height: 45px;
+  width: 400px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.right {
+  flex: 1;
+}
+.right img {
+  width: 550px;
+  height: 450px;
+  border-radius: 10px;
+  object-fit: cover;
+}

@@ -1,0 +1,27 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 60px;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+}
+.cont {
+  width: 100%;
+}
+.cont a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.cont a img {
+  height: 45px;
+  border-radius: 43px;
+}
